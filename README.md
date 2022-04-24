@@ -2,7 +2,11 @@
 
 ## zsh prompt (with IP)
 
-Below will create a prompt with the IP address of the host eth0, or, if on VPN tun0. This can replace the standard `configure_prompt` method in Kali's default `.zshrc` file
+Below will create a prompt with the IP address of the host eth0, or, if on VPN tun0. This can replace the standard `configure_prompt` method in Kali's default `.zshrc` file.
+
+It will look like:
+
+`(<user>㉿<envrion>)-(<IP>)-[<pwd>]`
 
 ```
 configure_prompt() {
